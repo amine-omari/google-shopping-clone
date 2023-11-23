@@ -1,6 +1,7 @@
 "use client";
 
 import { MagnifyingGlassIcon } from "@heroicons/react/24/solid";
+import SearchButton from "@/components/SearchButton";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -30,6 +31,9 @@ function Header() {
                 className="outline-none flex-1"
               />
             </div>
+
+            {/* Search Button */}
+            <SearchButton />
           </div>
         </form>
       </div>
